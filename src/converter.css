@@ -10,8 +10,69 @@ body {
 }
 
 .title {
-  width: 50%;
+  margin-top: 0;
+  font-size: 250%;
+  height: 50%;
   border: 3px solid black;
+  padding: 2%;
   text-align: center;
   justify-content: center;
+}
+
+.unit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.unit {
+  justify-content: space-between;
+  width: 65%;
+  max-width: 600px;
+}
+
+.fahrenheit label,
+.celsius label {
+  font-size: 50%; /* Adjust this value as needed */
+}
+
+.warning {
+  color: red;
+  font-size: 0.8 rem;
+  margin-top: 4px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+  align-self: center;
+  font-size: 16px;
+  margin-top: 5%;
 }
